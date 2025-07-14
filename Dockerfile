@@ -41,7 +41,7 @@ RUN mkdir -p src/main/resources
 COPY --chown=spring:spring src/main/resources/dados.csv src/main/resources/dados.csv
 
 # Expõe a porta da aplicação
-EXPOSE 9099
+EXPOSE 9069
 
 # Define o comando para executar a aplicação
 ENTRYPOINT ["java", "-jar", "app.jar"]
